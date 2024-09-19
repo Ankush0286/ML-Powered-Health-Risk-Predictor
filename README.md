@@ -1,1 +1,3 @@
 # ML-Powered-Health-Risk-Predictor
+
+This code builds a liver disease prediction model using the CatBoost classifier. It first loads a dataset, scales the features, and splits the data into training and testing sets. The model is then trained using CatBoost, which is known for handling categorical features and missing data well. After training, it evaluates the model's performance using metrics like accuracy, precision, recall, and F1 score. The program allows users to input new data to predict whether liver disease is present, providing a confidence level for the prediction. It also loops, allowing multiple predictions.
